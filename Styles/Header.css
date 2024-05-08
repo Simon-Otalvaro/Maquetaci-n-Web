@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(156, 156, 233);
+}
+
+header{
+    width: 100%;
+    height: 8rem;
+    background-color: #775bdd;
+    display: flex;
+}
+
+.container-logo{
+    width: 30%;
+    height: 100%;
+    justify-content:space-between;      
+}
+
+.img-web{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 1rem;   
+    justify-content: initial;
+    margin-left: 1100px;
+}
+
+.datos{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;  
+    background-color: aqua;    
+}
+
+select{
+    width: 10%;
+    height: 2rem;
+    border-radius: 20px;
+    margin: 0rem 2rem;
+}
+
+input{
+    width: 10%;
+    height: 2rem;
+    border-radius: 20px;
+    margin: 0rem 2rem;
+}
+
+label{
+    margin:7px 0rem;
+}
+
